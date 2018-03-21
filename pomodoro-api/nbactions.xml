@@ -37,4 +37,14 @@
                 <skipTests>true</skipTests>
             </properties>
         </action>
+        <action>
+            <actionName>CUSTOM-AppEngine - Run</actionName>
+            <displayName>AppEngine - Run</displayName>
+            <goals>
+                <goal>appengine:run</goal>
+            </goals>
+            <properties>
+                <skipTests>true</skipTests>
+            </properties>
+        </action>
     </actions>
