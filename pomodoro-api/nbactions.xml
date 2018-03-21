@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+        <action>
+            <actionName>CUSTOM-Appengine devserver</actionName>
+            <displayName>Appengine devserver</displayName>
+            <goals>
+                <goal>appengine:devserver</goal>
+            </goals>
+        </action>
+        <action>
+            <actionName>CUSTOM-Appengine Devserver</actionName>
+            <displayName>Appengine Devserver</displayName>
+            <goals>
+                <goal>appengine:devserver</goal>
+            </goals>
+            <properties>
+                <skipTest></skipTest>
+            </properties>
+        </action>
+        <action>
+            <actionName>CUSTOM-Dev -SkipTest</actionName>
+            <displayName>Dev -SkipTest</displayName>
+            <goals>
+                <goal>appengine:devserver</goal>
+            </goals>
+            <properties>
+                <skipTests></skipTests>
+            </properties>
+        </action>
+        <action>
+            <actionName>CUSTOM-Dev</actionName>
+            <displayName>Dev</displayName>
+            <goals>
+                <goal>appengine:devserver</goal>
+            </goals>
+            <properties>
+                <skipTests>true</skipTests>
+            </properties>
+        </action>
+    </actions>
